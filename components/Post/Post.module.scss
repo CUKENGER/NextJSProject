@@ -1,0 +1,52 @@
+@import '../../styles/vars.scss';
+
+.post__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    row-gap: 15px;
+    //background-color: #B4AEE3;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    row-gap: 10px;
+}
+
+
+.header__post{
+    @include flex-a;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+
+.post__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+.post__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    row-gap: 15px;
+}
+
+.post__photo{
+    width: 100%;
+}
+
+.maker__name{
+    font-size: 17px;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.post_text__container{
+    line-height: 23px;
+}

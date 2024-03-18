@@ -1,0 +1,11 @@
+@import '../../styles/vars.scss';
+
+.Link{
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+.Link:hover{
+    color: red;
+}
+

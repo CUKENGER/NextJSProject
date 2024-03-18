@@ -1,0 +1,78 @@
+@import './vars.scss';
+@font-face {
+    font-family: 'GP';
+    src: url('../src/fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'GP';
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vw;
+    background-color: var(--gray-bg);
+    color: var(--color-text);
+    font-size: 16px;
+    //font-family: Inter, "Roboto Thin", serif;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+:root[data-theme="light"] {
+    --color-primary: #5E5883;
+    --light-primary: #240ABF;
+
+    --color-text: #333333;
+    --gray-text: #666666;
+    --black-text: #333333;
+
+    --gray-bg: #DCE1E6;
+    --container-bg: #a1a1a1;
+
+    --icon-hover: #cdc4e7;
+
+    --input-bg: #DCE1E6;
+    --input-hover-border: #adafb2;
+    --input-hover: #d5d5d5;
+}
+
+:root[data-theme="dark"] {
+    --color-primary: #6D57EF;
+    --light-primary: #6D57EF;
+
+    --color-text: #ededed;
+    --gray-text: #B5B5B5;
+    --black-text: #484848;
+
+    --gray-bg: #292929;
+    --container-bg: #424242;
+
+    --icon-hover: #503B8C;
+
+    --input-bg: #292929;
+    --input-hover-border: #503B8C;
+    --input-hover: #333232;
+}
+
+
+
+
